@@ -1,0 +1,9 @@
+# Ignore node_modules from both frontend and backend
+backend/node_modules
+frontend/node_modules
+
+# Ignore build output
+client/build
+
+# Environment variables
+*.env

@@ -2,8 +2,5 @@
 backend/node_modules
 frontend/node_modules
 
-# Ignore build output
-frontend/build
-
 # Environment variables
 *.env

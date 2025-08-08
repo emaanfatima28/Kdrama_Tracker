@@ -1,0 +1,5 @@
+[build]
+builder = "NIXPACKS"
+[build.nixpacks]
+install_cmd = "cd backend && npm install && cd ../frontend && npm install && npm run build"
+start_cmd = "cd backend && npm start"
